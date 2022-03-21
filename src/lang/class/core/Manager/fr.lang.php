@@ -10,7 +10,7 @@ $GLOBALS['lang']['class']['core']['Manager']['__construct'] = 'construction de {
 $GLOBALS['lang']['class']['core']['Manager']['add']['start'] = '{class} début de l\'ajout d\'une ligne à la base de donnée';
 /* item to add does not have any attributes */
 $GLOBALS['lang']['class']['core']['Manager']['add']['no_attributes'] = '{class} impossible d\'ajouter un élément dans la base de donnée sans aucun attribut';
-/* query $query constructed */
+/* query $requête construite  */
 $GLOBALS['lang']['class']['core']['Manager']['add']['query'] = '{class} requête construte: {query}';
 /* success */
 $GLOBALS['lang']['class']['core']['Manager']['add']['success'] = '{class} ligne de la base de donnée ajoutée avec succès';
@@ -24,7 +24,7 @@ $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['start'] = '
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['group']['not_array'] = '{class} impossible de créer une clause GROUP BY, arguments incorrects donnés: l\'élément group de la liste doit etre une liste composée de 3 éléments: attribute, operations et having';
 /* the attribute element of the group element does not exist */
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['group']['missing_key'] = '{class} impossible de créer une clause GROUP BY, arguments incorrects donnés: l\'élément groupe doit avoir une clef attribute valide';
-/* end, query constructed */
+/* end, requête construite  */
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['group']['end'] ='{class} requête construite pour GROUP BY: {query}';
 /** [/group] **/
 /** [order] **/
@@ -34,7 +34,7 @@ $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['order']['no
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['order']['unknown_name'] = '{class} impossible de créer une clause ORDER BY, arguments incorrects donnés: l\'élément order doit avoir une clef name valide';
 /* direction must be ASC or DESC to be valid */
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['order']['direction'] = '{class} impossible de créer une clause ORDER BY, l\'élément direction n\'est ni "ASC", ni "DESC"';
-/* end, query constructed */
+/* end, requête construite  */
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['order']['end'] = '{class} requête construite pour ORDER BY: {query}';
 /** [/order] **/
 /** [limit] **/
@@ -42,12 +42,12 @@ $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['order']['en
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['limit']['not_array'] = '{class} impossible de créer une clause LIMIT, arguments incorrects donnés: l\'élément limit doit être une liste composée de 2 éléments: number et offset';
 /* invalid value for number or/and offset */
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['limit']['invalid'] = '{class} impossible de créer une clause LIMIT, arguments incorrects donnés: l\'élément number et offset doivent être des entiers';
-/* end, query constructed */
+/* end, requête construite  */
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['limit']['end'] = '{class} requête construite pour LIMIT: {query}';
 /** [/limit] **/
 /* unknown element in the argument array */
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['unknown_key'] = '{class} l\'élément avec la clef {key} n\'est pas supporté, seulement order, group et limit le sont';
-/* end, query constructed */
+/* end, requête construite  */
 $GLOBALS['lang']['class']['core']['Manager']['boundaryInterpreter']['end'] = '{class} requête construite : {query}';
 /** [/boundaryInterpreter] **/
 
@@ -74,7 +74,7 @@ $GLOBALS['lang']['class']['core']['Manager']['count'] = '{class} comptage des é
 $GLOBALS['lang']['class']['core']['Manager']['countBy']['start'] = '{class} début de décompte des éléments de la base de donnée respectant une condition';
 /* no values given */
 $GLOBALS['lang']['class']['core']['Manager']['countBy']['values'] = '{class} impossible de créer la condition sans valeurs';
-/* end, query constructed */
+/* end, requête construite  */
 $GLOBALS['lang']['class']['core']['Manager']['countBy']['end'] = '{class} requête construite : {query}';
 /** [/countBy] **/
 
@@ -83,7 +83,7 @@ $GLOBALS['lang']['class']['core']['Manager']['countBy']['end'] = '{class} requê
 $GLOBALS['lang']['class']['core']['Manager']['delete']['start'] = '{class} début de la suppression d\'un élément de la base de donnée';
 /* missing index */
 $GLOBALS['lang']['class']['core']['Manager']['delete']['missing_index'] = '{class} impossible de supprimer un élément de la base de donnée car l\'index {attribute} est manquant';
-/* end, query constructed */
+/* end, requête construite  */
 $GLOBALS['lang']['class']['core']['Manager']['delete']['end'] = '{class} requête construite : {query}';
 /** [/delete] **/
 
@@ -92,7 +92,7 @@ $GLOBALS['lang']['class']['core']['Manager']['delete']['end'] = '{class} requêt
 $GLOBALS['lang']['class']['core']['Manager']['deleteBy']['start'] = '{class} début de la suppression d\'éléments de la base de donnée respectant une condition';
 /* empty values */
 $GLOBALS['lang']['class']['core']['Manager']['deleteBy']['values'] = '{class} impossible de créer la condition sans valeurs';
-/* end, query constructed */
+/* end, requête construite  */
 $GLOBALS['lang']['class']['core']['Manager']['deleteBy']['end'] = '{class} requête construite : {query}';
 /** [/deleteBy] **/
 
@@ -115,85 +115,85 @@ $GLOBALS['lang']['class']['core']['Manager']['existBy'] = '{class} vérifie si a
 $GLOBALS['lang']['class']['core']['Manager']['get']['start'] = '{class} début de l\'obtention d\'un élément de la base de donnée';
 /* missing index */
 $GLOBALS['lang']['class']['core']['Manager']['get']['missing_index'] = '{class} impossible d\'obtenir l\'élément de la base de donnée car l\'index {attribute} est manquant';
-/* end, query constructed */
-$GLOBALS['lang']['class']['core']['Manager']['get']['end'] = '{class} query constructed: {query}';
+/* end, requête construite  */
+$GLOBALS['lang']['class']['core']['Manager']['get']['end'] = '{class} requête construite : constructed: {query}';
 /** [/get] **/
 
 /** [getBy] **/
 /* start the process */
-$GLOBALS['lang']['class']['core']['Manager']['getBy']['start'] = '{class} starting to get elements respecting a condition in the database';
+$GLOBALS['lang']['class']['core']['Manager']['getBy']['start'] = '{class} début de l\'obtention d\'éléments respectant une condition dans la base de donnée';
 /* empty values */
-$GLOBALS['lang']['class']['core']['Manager']['getBy']['values'] = '{class} cannot get elements respecting a condition in the database because values is empty, so there is no condition';
-/* end, query constructed */
-$GLOBALS['lang']['class']['core']['Manager']['getBy']['end'] = '{class} query constructed: {query}';
+$GLOBALS['lang']['class']['core']['Manager']['getBy']['values'] = '{class} impossible de créer la condition sans valeurs';
+/* end, requête construite  */
+$GLOBALS['lang']['class']['core']['Manager']['getBy']['end'] = '{class} requête construite : {query}';
 /** [/getBy] **/
 
 /** [getIdBy] **/
 /* start the process */
-$GLOBALS['lang']['class']['core']['Manager']['getIdBy']['start'] = '{class} starting to get index of elements respecting a condition in the database';
+$GLOBALS['lang']['class']['core']['Manager']['getIdBy']['start'] = '{class} début de l\'obtention des index des éléments de la base de donnée respectant une condition';
 /* empty values */
-$GLOBALS['lang']['class']['core']['Manager']['getIdBy']['values'] = '{class} cannot get index of elements respecting a condition in the database because values is empty, so there is no condition';
-/* end, query constructed */
-$GLOBALS['lang']['class']['core']['Manager']['getIdBy']['end'] = '{class} query constructed: {query}';
+$GLOBALS['lang']['class']['core']['Manager']['getIdBy']['values'] = '{class} impossible de créer la condition sans valeurs';
+/* end, requête construite  */
+$GLOBALS['lang']['class']['core']['Manager']['getIdBy']['end'] = '{class} requête construite : {query}';
 /** [/getIdBy] **/
 
 /** [getIdByPos] **/
 /* start the process */
-$GLOBALS['lang']['class']['core']['Manager']['getIdByPos']['start'] = '{class} starting to get index of elements by checking their position in the database';
+$GLOBALS['lang']['class']['core']['Manager']['getIdByPos']['start'] = '{class} début de l\'obtention des index des éléments de la base de donnée étant à une certaine position';
 /* invalid type for arguments */
-$GLOBALS['lang']['class']['core']['Manager']['getIdByPos']['invalid_data'] = '{class} invalid types for some arguments';
-/* end, query constructed */
-$GLOBALS['lang']['class']['core']['Manager']['getIdByPos']['end'] = '{data} query constructed: {query}';
+$GLOBALS['lang']['class']['core']['Manager']['getIdByPos']['invalid_data'] = '{class} type invalide pour certains arguments';
+/* end, requête construite  */
+$GLOBALS['lang']['class']['core']['Manager']['getIdByPos']['end'] = '{data} requête construite : {query}';
 /** [/getIdByPos] **/
 
 /** [getNextId] **/
 /* get next value of the index */
-$GLOBALS['lang']['class']['core']['Manager']['getNextId'] = '{class} getting next value of the index in the database';
+$GLOBALS['lang']['class']['core']['Manager']['getNextId'] = '{class} récupération de l\'indice du prochain élément de la base de donnée';
 /** [/getNextId] **/
 
 /** [managed] **/
 /* start the process */
-$GLOBALS['lang']['class']['core']['Manager']['managed']['start'] = '{class} creating an instance of the Managed class associated to this one';
+$GLOBALS['lang']['class']['core']['Manager']['managed']['start'] = '{class} création d\'une instance de la classe Managed associé à celle-ci';
 /* the calculated class was not found */
-$GLOBALS['lang']['class']['core']['Manager']['managed']['not_defined'] = '{class} class {managed} not found';
+$GLOBALS['lang']['class']['core']['Manager']['managed']['not_defined'] = '{class} la classe {managed} n\'a pas été trouvé';
 /** [/managed] **/
 
 /** [retrieveBy] **/
 /* start the process */
-$GLOBALS['lang']['class']['core']['Manager']['retrieveBy']['start'] = '{class} starting to retrieve object with data stored in the database matching a condition';
+$GLOBALS['lang']['class']['core']['Manager']['retrieveBy']['start'] = '{class} début de la récupération d\'objets avec des données de la base de donnée respectant une condition';
 /* custom class not defined */
-$GLOBALS['lang']['class']['core']['Manager']['retrieveBy']['custom_class_not_defined'] = '{class} class {managed} not found, cannot retrieve object of this class';
+$GLOBALS['lang']['class']['core']['Manager']['retrieveBy']['custom_class_not_defined'] = '{class} la classe {managed} n\'a pas été trouvé, impossible de récupérer des objets de cette classe';
 /* custom class manager not defined */
-$GLOBALS['lang']['class']['core']['Manager']['retrieveBy']['custom_class_manager_not_defined'] = '{class} class {manager} not found, cannot retrieve object not directly linked to this database';
+$GLOBALS['lang']['class']['core']['Manager']['retrieveBy']['custom_class_manager_not_defined'] = '{class} la classe {manager} n\'a pas été trouvé, impossible de récupérer des objets non liés à la base de donnée';
 /* end of the process */
-$GLOBALS['lang']['class']['core']['Manager']['retrieveBy']['end'] = '{class} retrieved';
+$GLOBALS['lang']['class']['core']['Manager']['retrieveBy']['end'] = '{class} récupérés';
 /* objects retrieved */
-$GLOBALS['lang']['class']['core']['Manager']['retrievedBy']['end'] = '{class} objects retrieved';
+$GLOBALS['lang']['class']['core']['Manager']['retrievedBy']['end'] = '{class} objets récupérés';
 /** [/retrieveBy] **/
 
 /** [setDb] **/
 /* trying to set a db which is not an instance of \PDO */
-$GLOBALS['lang']['class']['core']['Manager']['seetDb'] = '{class} cannot set db to this new value because this is not an instance of \PDO';
+$GLOBALS['lang']['class']['core']['Manager']['seetDb'] = '{class} impossible de définir db à cette nouvelle valeur car ce n\'est pas une instance de \\PDO';
 /** [/setDb] **/
 
 /** [update] **/
 /* start the process */
-$GLOBALS['lang']['class']['core']['Manager']['update']['start'] = '{class} starting to update an element of the database';
+$GLOBALS['lang']['class']['core']['Manager']['update']['start'] = '{class} début de la mise à jour d\'un élément de la base de donnée';
 /* missing index */
-$GLOBALS['lang']['class']['core']['Manager']['update']['missing_index'] = '{class} cannot update an element of the database because the index {attribute} is missing';
+$GLOBALS['lang']['class']['core']['Manager']['update']['missing_index'] = '{class} impossible de mettre à jour un élément de la base de donnée car l\'indice {attribute} est manquant';
 /* values */
-$GLOBALS['lang']['class']['core']['Manager']['update']['values'] = '{class} cannot update an element of the database because the values to replace are empty';
-/* end, query constructed */
-$GLOBALS['lang']['class']['core']['Manager']['update']['end'] = '{class} query constructed: {query}';
+$GLOBALS['lang']['class']['core']['Manager']['update']['values'] = '{class} impossible de mettre àà jour un élément de la base de donnée car la valeur à remplacer est nulle';
+/* end, requête construite  */
+$GLOBALS['lang']['class']['core']['Manager']['update']['end'] = '{class} requête construite : {query}';
 /** [/update] **/
 
 /** [updateBy] **/
 /* start the process */
-$GLOBALS['lang']['class']['core']['Manager']['updateBy']['start'] = '{class} starting to update elements respecting a condition in the database';
+$GLOBALS['lang']['class']['core']['Manager']['updateBy']['start'] = '{class} début de la mise à jour d\'éléments respectant une condition dans la base de donnée';
 /* empty values */
-$GLOBALS['lang']['class']['core']['Manager']['updateBy']['values'] = '{class} cannot update elements respecting a condition in the database because the values to make the condition or modification are empty';
-/* end, query constructed */
-$GLOBALS['lang']['class']['core']['Manager']['updateBy']['end'] = '{class} query constructed: {query}';
+$GLOBALS['lang']['class']['core']['Manager']['updateBy']['values'] = '{class} impossible de mettre à jour les éléments respectant une condition dans la base de donnée car les valeurs pour créer la condition ou modification sont nulles';
+/* end, requête construite  */
+$GLOBALS['lang']['class']['core']['Manager']['updateBy']['end'] = '{class} requête construite : {query}';
 /** [/updateBy] **/
 
 ?>
