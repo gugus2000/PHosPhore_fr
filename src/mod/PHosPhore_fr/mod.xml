@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<mod>
+  <name>
+    PHosPhore_fr
+  </name>
+  <authors>
+    <author>
+      <name>
+        gugus2000
+      </name>
+      <contacts>
+        <contact type="email">
+          gugus2000@courrier.dev
+        </contact>
+        <contact type="twitter">
+          @gugus2000
+        </contact>
+        <contact type="mastodon">
+          gugus2000@framapiaf.org
+        </contact>
+      </contacts>
+      <work>
+        Initial work
+      </work>
+    </author>
+  </authors>
+  <description>
+    locale and lang files translated in french.
+  </description>
+  <version>
+    1.0
+  </version>
+  <license>
+    Chocolate-Ware License
+  </license>
+  <structure>
+    <folder name="src">
+      <folder name="lang">
+        <folder name="class">
+          <folder name="content">
+            <folder name="Content">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="pageelement">
+              <folder name="PageElement">
+                <file name="fr.lang.php" />
+              </folder>
+              <folder name="preset">
+                <file name="fr.lang.php" />
+              </folder>
+            </folder>
+          </folder>
+          <folder name="core">
+            <folder name="DBFactory">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="LinkManager">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Managed">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Manager">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Token">
+              <file name="fr.lang.php" />
+            </folder>
+          </folder>
+          <folder name="route">
+            <folder name="Folder">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Parameter">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Route">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Router">
+              <file name="fr.lang.php" />
+            </folder>
+          </folder>
+          <folder name="structure">
+            <folder name="Node">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Tree">
+              <file name="fr.lang.php" />
+            </folder>
+          </folder>
+          <folder name="user">
+            <folder name="Notification">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Page">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Password">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Permission">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Role">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="User">
+              <file name="fr.lang.php" />
+            </folder>
+            <folder name="Visitor">
+              <file name="fr.lang.php" />
+            </folder>
+          </folder>
+        </folder>
+        <folder name="core">
+          <file name="fr.lang.php" />
+        </folder>
+      </folder>
+      <folder name="locale">
+        <folder name="class">
+          <folder name="core">
+            <folder name="DBFactory">
+              <file name="fr.locale.php" />
+            </folder>
+          </folder>
+          <folder name="route">
+            <folder name="Folder">
+              <file name="fr.locale.php" />
+            </folder>
+          </folder>
+          <folder name="user">
+            <folder name="Visitor">
+              <file name="fr.locale.php" />
+            </folder>
+          </folder>
+        </folder>
+        <folder name="core">
+          <file name="fr.locale.php" />
+        </folder>
+        <folder name="page">
+          <folder name="error">
+            <file name="fr.locale.php" />
+          </folder>
+          <folder name="main">
+            <folder name="home">
+              <file name="fr.locale.php" />
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="mod">
+        <folder name="PHosPhore_fr">
+          <file name="README.md" />
+          <file name="mod.xml" />
+        </folder>
+      </folder>
+    </folder>
+    <file name="LICENSE" />
+    <file name="README.md" />
+  </structure>
+</mod>
