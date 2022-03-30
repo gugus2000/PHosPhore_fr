@@ -8,7 +8,7 @@ locale and lang files translated in french. Language code: "fr".
 
 ## Installation
 
-Drag and drop the files into the [src](src) folder into your PHosPhore root directory (which contains ``index.php``).
+Drag and drop the files into the [src](../../../src) folder into your PHosPhore root directory (which contains ``index.php``).
 
 ## How to use
 
@@ -24,7 +24,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## License
 
-This project is licensied under the Chocolate-Ware License - see the [LICENSE](LICENSE) file for more information
+This project is licensied under the Chocolate-Ware License - see the [LICENSE](../../../LICENSE) file for more information
 
 # Traduction de PHosPhore en français
 
@@ -36,7 +36,7 @@ fichiers locale et lang traduis en français. Code de la langue: "fr"
 
 ## Installation
 
-Glissez et déposez les fichiers dans le dossier [src](src) dans le dossier racine de PHosPhore (qui contient ``index.php``).
+Glissez et déposez les fichiers dans le dossier [src](../../../src) dans le dossier racine de PHosPhore (qui contient ``index.php``).
 
 ## Comment l'utiliser
 
@@ -52,4 +52,4 @@ Nous utilisons [SemVer](http://semver.org) pour la gestion des versions.
 
 ## Licence
 
-Ce projet est licencié sous la licence Chocholate-Ware - voir le fichier [LICENSE](LICENSE) pour plus d'information
+Ce projet est licencié sous la licence Chocholate-Ware - voir le fichier [LICENSE](../../../LICENSE) pour plus d'information
